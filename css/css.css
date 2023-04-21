@@ -306,26 +306,48 @@ nav img {
 
     .home h1 {
        top: 19%;
+       left: 18%;
     }
     
     .home h6 {
         top: 50%;
-        left: 35%;
+        left: 18%;
     }
 
     .home button {
-        left: 20%;
+        left: 18%;
+    }
+
+    .features img {
+        width: 354px;
     }
 
     .pics {
         height: 250px;
-        width: 420px;
+        width: 345px;
     }
+
+    .services .img-hover {
+        height: 250px;
+        width: 345px;
+        border-radius: 15px;
+        position: absolute;
+        background: linear-gradient(rgba(0,0,0,0.2), #009680);
+        opacity: 0;
+        transition: 0.8s;
+    }
+
+    .review .review-box {
+        margin-bottom: 30px;
+    }
+    
 
     .contact .time-and-place    {
         justify-content: center;
         flex-direction: column;
     }
+
+   
 }
 
 
